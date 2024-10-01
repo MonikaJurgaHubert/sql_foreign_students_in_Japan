@@ -2,4 +2,4 @@ SELECT stay, COUNT(*) AS count_int, ROUND(AVG(todep),2) AS average_phq, ROUND(AV
 FROM students 
 WHERE inter_dom = 'Inter'
 GROUP BY stay
-ORDER BY stay;
+ORDER BY stay DESC;
